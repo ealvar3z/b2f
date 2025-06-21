@@ -28,13 +28,13 @@ A small Go utility to import your Bitwarden CSV-exported credentials into 9front
 
 ```sh
 # Read CSV and write commands to stdout:
-./b2f -input bitwarden_export_YYYYMMDDHHMMSS.csv.csv > facts.ctl
+./b2f -input bitwarden_export_YYYYMMDDHHMMSS.csv > facts.ctl
 
 # Apply directly to factotum:
-./b2f -input bitwarden_export_YYYYMMDDHHMMSS.csv.csv -apply
+./b2f -input bitwarden_export_YYYYMMDDHHMMSS.csv -apply
 
 # Use custom mountpoint or output file:
-./b2f -input bitwarden_export_YYYYMMDDHHMMSS.csv.csv -mount /path/to/factotum -out myfacts.ctl
+./b2f -input bitwarden_export_YYYYMMDDHHMMSS.csv -mount /path/to/factotum -out myfacts.ctl
 ```
 
 ### Flags
