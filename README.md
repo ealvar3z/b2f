@@ -21,7 +21,7 @@ A small Go utility to import your Bitwarden CSV-exported credentials into 9front
 3. Build the binary:
 
    ```sh
-   go build -o b2f b2f.go
+   go build -o b2f main.go
    ```
 
 ## Usage
